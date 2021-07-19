@@ -1,0 +1,81 @@
+﻿<Properties StartupConfiguration="{C87E772A-3F2F-411F-A300-A93DEA59C19C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DiplomReactNetCore.DAL/Models/Work/OrderListForWork.cs">
+    <Files>
+      <File FileName="DiplomReactNetCore.L/Simulation/SimulationSection.cs" Line="35" Column="50" />
+      <File FileName="DiplomReactNetCore.L/Simulation/SimulationCardVSM.cs" />
+      <File FileName="DiplomReactNetCore.L/Simulation/Simulation.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Models/DataBase/CardVSM.cs" />
+      <File FileName="DiplomReactNetCore.L/Simulation/SimulationEtapVSM.cs" />
+      <File FileName="DiplomReactNetCore/wwwroot/js/orderProduction.jsx" />
+      <File FileName="DiplomReactNetCore/wwwroot/js/Orders.jsx" />
+      <File FileName="DiplomReactNetCore/wwwroot/js/EtapVSM.jsx" />
+      <File FileName="DiplomReactNetCore/Controllers/EtapVSMController.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Context/MyContext.cs" />
+      <File FileName="DiplomReactNetCore/Controllers/OrderController.cs" />
+      <File FileName="DiplomReactNetCore/Controllers/PhoneController.cs" />
+      <File FileName="DiplomReactNetCore/wwwroot/js/myApp.jsx" />
+      <File FileName="DiplomReactNetCore/wwwroot/js/CardVSM.jsx" />
+      <File FileName="DiplomReactNetCore/wwwroot/js/app.jsx" />
+      <File FileName="DiplomReactNetCore/wwwroot/index.html" />
+      <File FileName="DiplomReactNetCore/wwwroot/js/Section.jsx" />
+      <File FileName="DiplomReactNetCore/Controllers/ManufactureController.cs" />
+      <File FileName="DiplomReactNetCore/Controllers/ProductionController.cs" />
+      <File FileName="DiplomReactNetCore/Controllers/SimulationController.cs" />
+      <File FileName="DiplomReactNetCore/wwwroot/js/BuffVSM.jsx" />
+      <File FileName="DiplomReactNetCore.L/Simulation/SimulationBufferVSM.cs" />
+      <File FileName="DiplomReactNetCore.L/Simulation/SimulationOrder.cs" />
+      <File FileName="DiplomReactNetCore.L/Simulation/Manufacture.cs" />
+      <File FileName="DiplomReactNetCore.L/Simulation/SimulationBufferQueueVSM.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Models/DataBase/EtapVSM.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Models/DataBase/QueueBufferVSM.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Models/DataBase/BufferVSM.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Models/History/EtapVSMHistory.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Models/History/QueuqOrderHistory.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Models/History/OrderHistory.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Models/Work/OrderListForWork.cs" Line="13" Column="2" />
+      <File FileName="DiplomReactNetCore.DAL/Models/DataBase/Order.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Models/Work/OrderListFinishedWork.cs" />
+      <File FileName="DiplomReactNetCore.DAL/Models/DataBase/ResultVSM.cs" />
+      <File FileName="DiplomReactNetCore/Controllers/OrderFinishedWorkController.cs" />
+      <File FileName="DiplomReactNetCore/wwwroot/js/OrdersFineshedWork.jsx" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DiplomReactNetCore" expanded="True">
+            <Node name="DiplomReactNetCore" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="DiplomReactNetCore.DAL" expanded="True">
+              <Node name="Context" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="DataBase" expanded="True" />
+                <Node name="History" expanded="True" />
+                <Node name="Work" expanded="True">
+                  <Node name="OrderListForWork.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="DiplomReactNetCore.L" expanded="True">
+              <Node name="Simulation" expanded="True">
+                <Node name="Interface" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DiplomReactNetCore PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/sergeismogliuk/Documents/Project/NetCore_project/DiplomReactNetCore/DiplomReactNetCore.L/Simulation/Manufacture.cs" relfile="DiplomReactNetCore.L/Simulation/Manufacture.cs" line="126" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

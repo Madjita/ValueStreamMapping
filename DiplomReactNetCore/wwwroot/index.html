@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Hello React</title>
+    <link rel="icon" href="data:;base64,=">
+    <style>
+
+        .box {
+            display: flex;
+            padding: 0 5px;
+        }
+
+        .item {
+            flex: 1 1 auto;
+            margin: 0 5px;
+        }
+
+        .myContent {
+            display: flex;
+        }
+
+        .shadow {
+            /*background: #fc0;  Цвет фона */
+            box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="content"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.11.0/umd/react.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.11.0/umd/react-dom.development.js"></script>
+    <script type="module" src="js/myApp.jsx"></script>
+</body>
+</html>
