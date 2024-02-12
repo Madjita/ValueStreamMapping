@@ -48,11 +48,11 @@ namespace diplom2
         public void ConfigureServices(IServiceCollection services)
         {
             var optionsBuilder = new DbContextOptionsBuilder<Context>();
-            DBConnect.options = optionsBuilder.UseSqlServer(Configuration.GetConnectionString("Default"), o => o.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery)).Options;
-            DBConnect._connectionString = Configuration.GetConnectionString("Default");
+            DBConnect.options = optionsBuilder.UseSqlServer(Configuration.GetConnectionString("AuthConnection"), o => o.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery)).Options;
+            DBConnect._connectionString = Configuration.GetConnectionString("AuthConnection");
 
             services.AddCors();
-            services.AddDbContext<Context>(opt =>opt.UseSqlServer(Configuration.GetConnectionString("Default")));
+            services.AddDbContext<Context>(opt =>opt.UseSqlServer(Configuration.GetConnectionString("AuthConnection")));
 
             services.AddSignalR();
 

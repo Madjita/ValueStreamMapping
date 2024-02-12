@@ -1,30 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sergeismogliuk/Documents/Project/My_experience/New_project_diplom/backend/diplom2/diplom2/diplom2.csproj": {}
+    "C:\\Users\\Xok-s\\OneDrive\\Документы\\MyProject\\Diplom\\ValueStreamMapping\\diplom2\\diplom2.csproj": {}
   },
   "projects": {
-    "/Users/sergeismogliuk/Documents/Project/My_experience/New_project_diplom/backend/diplom2/diplom2/diplom2.csproj": {
+    "C:\\Users\\Xok-s\\OneDrive\\Документы\\MyProject\\Diplom\\ValueStreamMapping\\diplom2\\diplom2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sergeismogliuk/Documents/Project/My_experience/New_project_diplom/backend/diplom2/diplom2/diplom2.csproj",
+        "projectUniqueName": "C:\\Users\\Xok-s\\OneDrive\\Документы\\MyProject\\Diplom\\ValueStreamMapping\\diplom2\\diplom2.csproj",
         "projectName": "diplom2",
-        "projectPath": "/Users/sergeismogliuk/Documents/Project/My_experience/New_project_diplom/backend/diplom2/diplom2/diplom2.csproj",
-        "packagesPath": "/Users/sergeismogliuk/.nuget/packages/",
-        "outputPath": "/Users/sergeismogliuk/Documents/Project/My_experience/New_project_diplom/backend/diplom2/diplom2/obj/",
+        "projectPath": "C:\\Users\\Xok-s\\OneDrive\\Документы\\MyProject\\Diplom\\ValueStreamMapping\\diplom2\\diplom2.csproj",
+        "packagesPath": "C:\\Users\\Xok-s\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Xok-s\\OneDrive\\Документы\\MyProject\\Diplom\\ValueStreamMapping\\diplom2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sergeismogliuk/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Xok-s\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,9 +37,13 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "EPPlus": {
               "target": "Package",
               "version": "[5.7.5, )"
@@ -46,35 +52,55 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.AspNetCore.SignalR": {
               "target": "Package",
               "version": "[1.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[7.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.5, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[7.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
             },
             "itext7": {
               "target": "Package",
@@ -87,10 +113,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -99,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
