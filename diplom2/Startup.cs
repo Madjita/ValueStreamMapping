@@ -58,7 +58,7 @@ namespace diplom2
 
             services.AddControllers();
 
-
+            services.InitSettings(Configuration,null);
 
             /*services.AddControllers().AddJsonOptions(options =>
             {

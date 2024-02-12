@@ -40,7 +40,7 @@ namespace diplom2.Logic
         private Context GetContext()
         {
             var optionsBuilder = new DbContextOptionsBuilder<Context>();
-            optionsBuilder.UseSqlServer(_connectionString);
+            optionsBuilder.UseNpgsql(_connectionString);
             return new Context(optionsBuilder.Options);
         }
 
