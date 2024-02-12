@@ -11,6 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -18,6 +19,7 @@
     "diplom2": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "swagger",
       "applicationUrl": "http://192.168.0.6:5001", //"http://192.168.0.3:5001", //"http://192.168.0.2:5001", //, //, //"http://192.168.213.65:5001", ////"http://192.168.1.167:5001", //, //https://localhost:5001;
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
